@@ -14,6 +14,6 @@ def encryption_key(word)
         elif alphanumeric == 'o':
             password = password + '.'
         else:
-            password = password + alnum
+            password = password + alphanumeric
     
     return(password)
